@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> parcial </title>
+	<style>
+	.inetrfaz{
+	position: absolute;
+	width: 1250px;
+	height: 700px;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	background: lightblue;
+	border-radius: 3%;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	
+	}
+
+	.tema1{
+	position: absolute;
+		width:100px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	left: 250px;
+    border-radius: 10%;
+	background: yellow;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	
+}
+.texto1{
+position: absolute;
+width: 580px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 400px;
+	background: yellow;
+    border-radius: 10%;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	display: none;
+	padding-top: 100px;
+	padding-left: 30px;
+	
+}
+.cerrar{
+position: absolute;
+width:100px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	border-radius: 10%;
+	border: solid 2px black;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;}
+
+	.tema2{
+	position: absolute;
+		width:100px;
+	height: 40px;
+	position: absolute;
+	top: 80px;
+	left: 250px;
+    border-radius: 10%;
+	background: yellow;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	}
+.texto2{
+	position: absolute;
+	width: 580px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 400px;
+	background: yellow;
+	border-radius: 10%;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	display: none;
+	transition: all 4s;
+	padding-top: 100px;
+
+}
+.cerrar2{
+position: absolute;
+width:100px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	border: solid 2px black;
+	border-radius: 10%;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+}
+.adio{
+width:200px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 1000px;
+	border: solid 20px white;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	img width: 20px;
+
+}
+img{
+width: 173px;
+height: 70px;
+}
+
+
+
+
+	</style>
+
+
+
+</head>
+<body>
+<div class="inetrfaz"></div>
+<div class="tema1" onclick="document.getElementById('texto').style.display='block'">TEMA1</div>
+<div class="texto1" id="texto">este es el texto uno repito este es el texto uno
+<div class="cerrar"onclick="document.getElementById('texto').style.display='none'" >CERRAR</div>
+</div>
+<div class="tema2" onclick="document.getElementById('texto2').style.display='block'">TEMA2</div>
+<div class="texto2" id="texto2"> <center>este es el texto dos respito este es el texto dos</center>
+<div class="cerrar2" onclick="document.getElementById('texto2').style.display='none'">CERRA</div>
+</div>
+
+<div class="adio" onclick="document.getElementById('aud').play()">
+<audio src="este.mp3" id="aud" loop></audio>
+<img src="repro.png">
+
+</div>
+
+
+</body>
+</html>
